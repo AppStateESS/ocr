@@ -5,7 +5,6 @@ body {
     'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
 
   font-size: 16px;
-  padding: 1em;
 }
 
 h1,
@@ -93,6 +92,19 @@ th {
   padding: 1em;
   vertical-align: top;
   text-align: left;
+}
+
+#header {
+  height: 35px;
+  padding: 10px;
+  background-color: #000;
+  img {
+    width: 130px;
+  }
+}
+
+#main {
+  padding: 1em;
 }
 
 .next-page {
