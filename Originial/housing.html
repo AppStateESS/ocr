@@ -1,0 +1,960 @@
+<!doctype HTML>
+<html lang="en">
+
+<head>
+  <title>housing-report.html</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+
+<body>
+  <div>
+    <main>
+      <h1>University Housing</h1>
+      <div>
+        <h2>About the Evaluation</h2>
+        <dl>
+          <dt>Report Creator </dt>
+          <dd>Dana Braswell </dd>
+          <dt>Evaluation Commissioner </dt>
+          <dd>Brian Brown </dd>
+          <dt>Evaluation date </dt>
+          <dd>Mon Jun 27 2022</dd>
+        </dl>
+      </div>
+      <div>
+        <h2>Executive Summary</h2>
+        <div>
+          <p>Overall accessibility is good - the main issues encountered were with missing alt-tags, titles, or tab
+            order issues that can be quickly corrected.</p>
+        </div>
+      </div>
+      <div>
+        <h2>Scope of the Evaluation</h2>
+        <dl>
+          <dt>Website name </dt>
+          <dd>housing.appstate.edu </dd>
+          <dt>Scope of the website </dt>
+          <dd>Review includes the homepage of the University Housing site along with a maximum of 8 other pages chosen
+            to provide the greatest range of content types throughout the site. 1 random page will also be included in
+            the review. Content types include the following: tables, accordions, collapsible elements, embedded media,
+            tab panes/interfaces, modals, and cards. </dd>
+          <dt>WCAG Version </dt>
+          <dd>2.1 </dd>
+          <dt>Conformance target </dt>
+          <dd>A </dd>
+          <dt>Accessibility support baseline </dt>
+          <dd>Internet Explorer, Microsoft Edge, Opera, Safari, Google Chrome, Mozilla Firefox </dd>
+          <dt>Additional evaluation requirements </dt>
+          <dd>Report will include an overview of all errors identified with examples where needed</dd>
+        </dl>
+      </div>
+      <h2>Detailed audit results</h2>
+      <h3>Summary</h3>
+      <p>Reported on 30 of 30 WCAG 2.1 A
+        Success Criteria.</p>
+      <ul>
+        <li><span>18</span> <span>Passed</span></li>
+        <li><span>1</span> <span>Failed</span></li>
+        <li><span>0</span> <span>Cannot tell</span></li>
+        <li><span>11</span> <span>Not present</span></li>
+        <li><span>0</span> <span>Not checked</span></li>
+      </ul>
+      <h3>All results</h3>
+      <h4>1 Perceivable</h4>
+      <h5 id="guideline-11">1.1 Text Alternatives</h5>
+      <table aria-labelledby="guideline-11">
+        <tbody>
+          <tr>
+            <th scope="col">Success Criterion</th>
+            <th scope="col">Result</th>
+            <th scope="col">Observations</th>
+          </tr>
+          <tr>
+            <th scope="row" id="criterion-111">1.1.1: Non-text Content</th>
+            <td>
+              <h6>Entire sample</h6>
+              <p><span>Result:</span> Passed</p>
+              <h6>Homepage</h6>
+              <p><span>Result:</span> Passed </p>
+              <h6>Raven Rocks</h6>
+              <p><span>Result:</span> Failed </p>
+              <h6>Apply</h6>
+              <p><span>Result:</span> Passed </p>
+              <h6>FAQ</h6>
+              <p><span>Result:</span> Passed </p>
+              <h6>Outdoor RLC</h6>
+              <p><span>Result:</span> Passed </p>
+              <h6>Policies</h6>
+              <p><span>Result:</span> Passed </p>
+              <h6>Residence Halls</h6>
+              <p><span>Result:</span> Passed </p>
+              <h6>Staff Directory</h6>
+              <p><span>Result:</span> Passed </p>
+              <h6>Learning Plan</h6>
+              <p><span>Result:</span> Passed </p>
+              <h6>Summer Employment</h6>
+              <p><span>Result:</span> Passed </p>
+            </td>
+            <td>
+              <h6>Entire sample</h6>
+              <p>Observations:</p>
+              <p>Overall most elements seem to have at least some text alternative, but some still need updating.</p>
+              <h6>Homepage</h6>
+              <p>Images need titles added; alt-tags are present - or, since they're decorative in nature, set the
+                alt-tags to null. Button roles should also be added where needed - some are missing.</p>
+              <h6>Raven Rocks</h6>
+              <p>Images lack alt-tags and titles; links need aria-label</p>
+              <h6>Apply</h6>
+              <p>Button roles need to be added; links need aria-label; other elements are ok</p>
+              <h6>FAQ</h6>
+              <p>Links need aria-label; other elements are ok</p>
+              <h6>Outdoor RLC</h6>
+              <p>Links need aria-label, embedded video appears to have accessibility items enabled</p>
+              <h6>Policies</h6>
+              <p>Add button roles, add aria-label to a couple of the links; other elements ok</p>
+              <h6>Residence Halls</h6>
+              <p>Table uses &lt;th&gt; and other markup; aria-label needs to be added to links</p>
+              <h6>Staff Directory</h6>
+              <p>Images need alt-tags and titles, but tabs and other elements have appropriate markup</p>
+              <h6>Learning Plan</h6>
+              <p>Images need titles</p>
+              <h6>Summer Employment</h6>
+              <p>One link needs an aria-label</p>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      <h5 id="guideline-12">1.2 Time-based Media</h5>
+      <table aria-labelledby="guideline-12">
+        <tbody>
+          <tr>
+            <th scope="col">Success Criterion</th>
+            <th scope="col">Result</th>
+            <th scope="col">Observations</th>
+          </tr>
+          <tr>
+            <th scope="row" id="criterion-121">1.2.1: Audio-only and Video-only (Prerecorded)</th>
+            <td>
+              <h6>Entire sample</h6>
+              <p><span>Result:</span> Passed</p>
+              <h6>Homepage</h6>
+              <p><span>Result:</span> Not present </p>
+              <h6>Raven Rocks</h6>
+              <p><span>Result:</span> Passed </p>
+              <h6>Apply</h6>
+              <p><span>Result:</span> Not present </p>
+              <h6>FAQ</h6>
+              <p><span>Result:</span> Not present </p>
+              <h6>Outdoor RLC</h6>
+              <p><span>Result:</span> Passed </p>
+              <h6>Policies</h6>
+              <p><span>Result:</span> Not present </p>
+              <h6>Residence Halls</h6>
+              <p><span>Result:</span> Not present </p>
+              <h6>Staff Directory</h6>
+              <p><span>Result:</span> Not present </p>
+              <h6>Learning Plan</h6>
+              <p><span>Result:</span> Not present </p>
+              <h6>Summer Employment</h6>
+              <p><span>Result:</span> Not present </p>
+            </td>
+            <td>
+              <h6>Entire sample</h6>
+              <p>Observations:</p>
+              <p>Overall embedded audio and/or video is rare among the sample pages but seems to have the appropriate
+                markup and captioning when present.</p>
+              <h6>Homepage</h6>
+              <p>No observations added</p>
+              <h6>Raven Rocks</h6>
+              <p>Media on page is 3d room tours, which appear to have appropriate markup</p>
+              <h6>Apply</h6>
+              <p>No observations added</p>
+              <h6>FAQ</h6>
+              <p>No observations added</p>
+              <h6>Outdoor RLC</h6>
+              <p>Embedded Youtube video provides closed captions</p>
+              <h6>Policies</h6>
+              <p>No observations added</p>
+              <h6>Residence Halls</h6>
+              <p>No observations added</p>
+              <h6>Staff Directory</h6>
+              <p>No observations added</p>
+              <h6>Learning Plan</h6>
+              <p>No observations added</p>
+              <h6>Summer Employment</h6>
+              <p>No observations added</p>
+            </td>
+          </tr>
+          <tr>
+            <th scope="row" id="criterion-122">1.2.2: Captions (Prerecorded)</th>
+            <td>
+              <h6>Entire sample</h6>
+              <p><span>Result:</span> Passed</p>
+              <h6>Homepage</h6>
+              <p><span>Result:</span> Not present </p>
+              <h6>Raven Rocks</h6>
+              <p><span>Result:</span> Not present </p>
+              <h6>Apply</h6>
+              <p><span>Result:</span> Not present </p>
+              <h6>FAQ</h6>
+              <p><span>Result:</span> Not present </p>
+              <h6>Outdoor RLC</h6>
+              <p><span>Result:</span> Passed </p>
+              <h6>Policies</h6>
+              <p><span>Result:</span> Not present </p>
+              <h6>Residence Halls</h6>
+              <p><span>Result:</span> Not present </p>
+              <h6>Staff Directory</h6>
+              <p><span>Result:</span> Not present </p>
+              <h6>Learning Plan</h6>
+              <p><span>Result:</span> Not present </p>
+              <h6>Summer Employment</h6>
+              <p><span>Result:</span> Not present </p>
+            </td>
+            <td>
+              <h6>Entire sample</h6>
+              <p>Observations:</p>
+              <p>The one embedded Youtube video provides captions for the audio track</p>
+              <h6>Homepage</h6>
+              <p>No observations added</p>
+              <h6>Raven Rocks</h6>
+              <p>No observations added</p>
+              <h6>Apply</h6>
+              <p>No observations added</p>
+              <h6>FAQ</h6>
+              <p>No observations added</p>
+              <h6>Outdoor RLC</h6>
+              <p>No observations added</p>
+              <h6>Policies</h6>
+              <p>No observations added</p>
+              <h6>Residence Halls</h6>
+              <p>No observations added</p>
+              <h6>Staff Directory</h6>
+              <p>No observations added</p>
+              <h6>Learning Plan</h6>
+              <p>No observations added</p>
+              <h6>Summer Employment</h6>
+              <p>No observations added</p>
+            </td>
+          </tr>
+          <tr>
+            <th scope="row" id="criterion-123">1.2.3: Audio Description or Media Alternative (Prerecorded)</th>
+            <td>
+              <h6>Entire sample</h6>
+              <p><span>Result:</span> Failed</p>
+              <h6>Homepage</h6>
+              <p><span>Result:</span> Not present </p>
+              <h6>Raven Rocks</h6>
+              <p><span>Result:</span> Not present </p>
+              <h6>Apply</h6>
+              <p><span>Result:</span> Not present </p>
+              <h6>FAQ</h6>
+              <p><span>Result:</span> Not present </p>
+              <h6>Outdoor RLC</h6>
+              <p><span>Result:</span> Failed </p>
+              <h6>Policies</h6>
+              <p><span>Result:</span> Not present </p>
+              <h6>Residence Halls</h6>
+              <p><span>Result:</span> Not present </p>
+              <h6>Staff Directory</h6>
+              <p><span>Result:</span> Not present </p>
+              <h6>Learning Plan</h6>
+              <p><span>Result:</span> Not present </p>
+              <h6>Summer Employment</h6>
+              <p><span>Result:</span> Not present </p>
+            </td>
+            <td>
+              <h6>Entire sample</h6>
+              <p>Observations:</p>
+              <p>My understanding of this is that the one embedded Youtube video in the sample should have an
+                alternative text description of the events of the video.</p>
+              <h6>Homepage</h6>
+              <p>No observations added</p>
+              <h6>Raven Rocks</h6>
+              <p>No observations added</p>
+              <h6>Apply</h6>
+              <p>No observations added</p>
+              <h6>FAQ</h6>
+              <p>No observations added</p>
+              <h6>Outdoor RLC</h6>
+              <p>From my understanding of this section, the embedded Youtube video should have an alternative text
+                description of the events in the video.</p>
+              <h6>Policies</h6>
+              <p>No observations added</p>
+              <h6>Residence Halls</h6>
+              <p>No observations added</p>
+              <h6>Staff Directory</h6>
+              <p>No observations added</p>
+              <h6>Learning Plan</h6>
+              <p>No observations added</p>
+              <h6>Summer Employment</h6>
+              <p>No observations added</p>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      <h5 id="guideline-13">1.3 Adaptable</h5>
+      <table aria-labelledby="guideline-13">
+        <tbody>
+          <tr>
+            <th scope="col">Success Criterion</th>
+            <th scope="col">Result</th>
+            <th scope="col">Observations</th>
+          </tr>
+          <tr>
+            <th scope="row" id="criterion-131">1.3.1: Info and Relationships</th>
+            <td>
+              <h6>Entire sample</h6>
+              <p><span>Result:</span> Passed</p>
+              <h6>Homepage</h6>
+              <p><span>Result:</span> Passed </p>
+              <h6>Raven Rocks</h6>
+              <p><span>Result:</span> Passed </p>
+              <h6>Apply</h6>
+              <p><span>Result:</span> Passed </p>
+              <h6>FAQ</h6>
+              <p><span>Result:</span> Passed </p>
+              <h6>Outdoor RLC</h6>
+              <p><span>Result:</span> Passed </p>
+              <h6>Policies</h6>
+              <p><span>Result:</span> Passed </p>
+              <h6>Residence Halls</h6>
+              <p><span>Result:</span> Passed </p>
+              <h6>Staff Directory</h6>
+              <p><span>Result:</span> Passed </p>
+              <h6>Learning Plan</h6>
+              <p><span>Result:</span> Passed </p>
+              <h6>Summer Employment</h6>
+              <p><span>Result:</span> Passed </p>
+            </td>
+            <td>
+              <h6>Entire sample</h6>
+              <p>Observations:</p>
+              <p>Pages appear to be structured in a reasonable way</p>
+              <h6>Homepage</h6>
+              <p>No observations added</p>
+              <h6>Raven Rocks</h6>
+              <p>No observations added</p>
+              <h6>Apply</h6>
+              <p>No observations added</p>
+              <h6>FAQ</h6>
+              <p>No observations added</p>
+              <h6>Outdoor RLC</h6>
+              <p>No observations added</p>
+              <h6>Policies</h6>
+              <p>No observations added</p>
+              <h6>Residence Halls</h6>
+              <p>No observations added</p>
+              <h6>Staff Directory</h6>
+              <p>No observations added</p>
+              <h6>Learning Plan</h6>
+              <p>No observations added</p>
+              <h6>Summer Employment</h6>
+              <p>No observations added</p>
+            </td>
+          </tr>
+          <tr>
+            <th scope="row" id="criterion-132">1.3.2: Meaningful Sequence</th>
+            <td>
+              <h6>Entire sample</h6>
+              <p><span>Result:</span> Passed</p>
+            </td>
+            <td>
+              <h6>Entire sample</h6>
+              <p>Observations:</p>
+              <p>Every page within the sample has a logical order and reading sequence.</p>
+            </td>
+          </tr>
+          <tr>
+            <th scope="row" id="criterion-133">1.3.3: Sensory Characteristics</th>
+            <td>
+              <h6>Entire sample</h6>
+              <p><span>Result:</span> Passed</p>
+              <h6>Homepage</h6>
+              <p><span>Result:</span> Passed </p>
+              <h6>Raven Rocks</h6>
+              <p><span>Result:</span> Passed </p>
+              <h6>Apply</h6>
+              <p><span>Result:</span> Not present </p>
+              <h6>Outdoor RLC</h6>
+              <p><span>Result:</span> Not present </p>
+              <h6>Residence Halls</h6>
+              <p><span>Result:</span> Passed </p>
+              <h6>Staff Directory</h6>
+              <p><span>Result:</span> Not present </p>
+              <h6>Learning Plan</h6>
+              <p><span>Result:</span> Not present </p>
+              <h6>Summer Employment</h6>
+              <p><span>Result:</span> Not present </p>
+            </td>
+            <td>
+              <h6>Entire sample</h6>
+              <p>Observations:</p>
+              <p>Generally this type of presentation is not used within the sample - with the possible exception of some
+                elements with an 'alert' class. Contextual coloring is used for these, but each element seems to have
+                the aria-role of 'alert' set.</p>
+              <h6>Homepage</h6>
+              <p>No observations added</p>
+              <h6>Raven Rocks</h6>
+              <p>No observations added</p>
+              <h6>Apply</h6>
+              <p>No observations added</p>
+              <h6>Outdoor RLC</h6>
+              <p>No observations added</p>
+              <h6>Residence Halls</h6>
+              <p>No observations added</p>
+              <h6>Staff Directory</h6>
+              <p>No observations added</p>
+              <h6>Learning Plan</h6>
+              <p>No observations added</p>
+              <h6>Summer Employment</h6>
+              <p>No observations added</p>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      <h5 id="guideline-14">1.4 Distinguishable</h5>
+      <table aria-labelledby="guideline-14">
+        <tbody>
+          <tr>
+            <th scope="col">Success Criterion</th>
+            <th scope="col">Result</th>
+            <th scope="col">Observations</th>
+          </tr>
+          <tr>
+            <th scope="row" id="criterion-141">1.4.1: Use of Color</th>
+            <td>
+              <h6>Entire sample</h6>
+              <p><span>Result:</span> Passed</p>
+            </td>
+            <td>
+              <h6>Entire sample</h6>
+              <p>Observations:</p>
+              <p>As noted in section 1.3.3, several elements have elements with an 'alert' class set, which includes
+                contextual coloring. Each alert instance in the sample has the aria-role of 'alert' set.</p>
+            </td>
+          </tr>
+          <tr>
+            <th scope="row" id="criterion-142">1.4.2: Audio Control</th>
+            <td>
+              <h6>Entire sample</h6>
+              <p><span>Result:</span> Not present</p>
+            </td>
+            <td>
+              <h6>Entire sample</h6>
+              <p>Observations:</p>
+              <p>No automatic audio present in sample set.</p>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      <h4>2 Operable</h4>
+      <h5 id="guideline-21">2.1 Keyboard Accessible</h5>
+      <table aria-labelledby="guideline-21">
+        <tbody>
+          <tr>
+            <th scope="col">Success Criterion</th>
+            <th scope="col">Result</th>
+            <th scope="col">Observations</th>
+          </tr>
+          <tr>
+            <th scope="row" id="criterion-211">2.1.1: Keyboard</th>
+            <td>
+              <h6>Entire sample</h6>
+              <p><span>Result:</span> Passed</p>
+              <h6>Homepage</h6>
+              <p><span>Result:</span> Passed </p>
+              <h6>Raven Rocks</h6>
+              <p><span>Result:</span> Failed </p>
+              <h6>Apply</h6>
+              <p><span>Result:</span> Failed </p>
+              <h6>FAQ</h6>
+              <p><span>Result:</span> Failed </p>
+              <h6>Outdoor RLC</h6>
+              <p><span>Result:</span> Passed </p>
+              <h6>Policies</h6>
+              <p><span>Result:</span> Passed </p>
+              <h6>Residence Halls</h6>
+              <p><span>Result:</span> Passed </p>
+              <h6>Staff Directory</h6>
+              <p><span>Result:</span> Failed </p>
+              <h6>Learning Plan</h6>
+              <p><span>Result:</span> Passed </p>
+              <h6>Summer Employment</h6>
+              <p><span>Result:</span> Passed </p>
+            </td>
+            <td>
+              <h6>Entire sample</h6>
+              <p>Observations:</p>
+              <p>Overall, while the tab order is present and makes logical sense, it may be a bit of an issue that the
+                menu links are numerous enough to push the tab order of the main body content into the 90+ range on a
+                number of the sample pages. Also, instances of tabbed navigation within tab panes for some content has
+                an issue with some of the content being bypassed in the tab order and needs to be corrected.</p>
+              <h6>Homepage</h6>
+              <p>No observations added</p>
+              <h6>Raven Rocks</h6>
+              <p>Tab order of the tabbed navigation near the bottom of the page - it cycles through the tabs, then back
+                to the content of the first tab pane, then bypasses the content of the remaining tab panes (although,
+                hitting 'Enter' on a subsequent tab will allow for the tab order to be transferred to the active pane -
+                but still does not allow for navigation to content of other tab panes). Also, tab order is affected if
+                user opens one of the collapsible elements.</p>
+              <h6>Apply</h6>
+              <p>Tab order of tabbed navigation bypasses content of 2nd and 3rd tab panes</p>
+              <h6>FAQ</h6>
+              <p>Tab order of tabbed navigation bypasses content of 2nd and 3rd tab panes</p>
+              <h6>Outdoor RLC</h6>
+              <p>No observations added</p>
+              <h6>Policies</h6>
+              <p>One or two instances of a link within the body of an accordion element not having a tab index - should
+                be fixed</p>
+              <h6>Residence Halls</h6>
+              <p>No observations added</p>
+              <h6>Staff Directory</h6>
+              <p>Same issue of any content within second or greater tab panes being left out of tab order.</p>
+              <h6>Learning Plan</h6>
+              <p>No observations added</p>
+              <h6>Summer Employment</h6>
+              <p>No observations added</p>
+            </td>
+          </tr>
+          <tr>
+            <th scope="row" id="criterion-212">2.1.2: No Keyboard Trap</th>
+            <td>
+              <h6>Entire sample</h6>
+              <p><span>Result:</span> Passed</p>
+              <h6>Homepage</h6>
+              <p><span>Result:</span> Passed </p>
+              <h6>Raven Rocks</h6>
+              <p><span>Result:</span> Failed </p>
+              <h6>Apply</h6>
+              <p><span>Result:</span> Passed </p>
+              <h6>FAQ</h6>
+              <p><span>Result:</span> Passed </p>
+              <h6>Outdoor RLC</h6>
+              <p><span>Result:</span> Passed </p>
+              <h6>Policies</h6>
+              <p><span>Result:</span> Passed </p>
+              <h6>Residence Halls</h6>
+              <p><span>Result:</span> Passed </p>
+              <h6>Staff Directory</h6>
+              <p><span>Result:</span> Passed </p>
+              <h6>Learning Plan</h6>
+              <p><span>Result:</span> Passed </p>
+              <h6>Summer Employment</h6>
+              <p><span>Result:</span> Passed </p>
+            </td>
+            <td>
+              <h6>Entire sample</h6>
+              <p>Observations:</p>
+              <p>Encountered one keyboard trap on one page with a collapsible element - only happened if user interacted
+                with the element; otherwise, the keyboard trap never occurred.</p>
+              <h6>Homepage</h6>
+              <p>No observations added</p>
+              <h6>Raven Rocks</h6>
+              <p>Collapsible element for virtual tour yields keyboard trap (only if user hits 'enter' and interacts with
+                the tour itself - otherwise the keyboard trap does not occur). Seems to be due to third-party embedded
+                player.</p>
+              <h6>Apply</h6>
+              <p>No observations added</p>
+              <h6>FAQ</h6>
+              <p>No observations added</p>
+              <h6>Outdoor RLC</h6>
+              <p>No observations added</p>
+              <h6>Policies</h6>
+              <p>No observations added</p>
+              <h6>Residence Halls</h6>
+              <p>No observations added</p>
+              <h6>Staff Directory</h6>
+              <p>No observations added</p>
+              <h6>Learning Plan</h6>
+              <p>No observations added</p>
+              <h6>Summer Employment</h6>
+              <p>No observations added</p>
+            </td>
+          </tr>
+          <tr>
+            <th scope="row" id="criterion-214">2.1.4: Character Key Shortcuts</th>
+            <td>
+              <h6>Entire sample</h6>
+              <p><span>Result:</span> Not present</p>
+            </td>
+            <td> </td>
+          </tr>
+        </tbody>
+      </table>
+      <h5 id="guideline-22">2.2 Enough Time</h5>
+      <table aria-labelledby="guideline-22">
+        <tbody>
+          <tr>
+            <th scope="col">Success Criterion</th>
+            <th scope="col">Result</th>
+            <th scope="col">Observations</th>
+          </tr>
+          <tr>
+            <th scope="row" id="criterion-221">2.2.1: Timing Adjustable</th>
+            <td>
+              <h6>Entire sample</h6>
+              <p><span>Result:</span> Not present</p>
+            </td>
+            <td> </td>
+          </tr>
+          <tr>
+            <th scope="row" id="criterion-222">2.2.2: Pause, Stop, Hide</th>
+            <td>
+              <h6>Entire sample</h6>
+              <p><span>Result:</span> Passed</p>
+            </td>
+            <td>
+              <h6>Entire sample</h6>
+              <p>Observations:</p>
+              <p>The image carousel on the homepage can be paused via mouseover. No other content, scrolling or
+                otherwise, present in sample set.</p>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      <h5 id="guideline-23">2.3 Seizures and Physical Reactions</h5>
+      <table aria-labelledby="guideline-23">
+        <tbody>
+          <tr>
+            <th scope="col">Success Criterion</th>
+            <th scope="col">Result</th>
+            <th scope="col">Observations</th>
+          </tr>
+          <tr>
+            <th scope="row" id="criterion-231">2.3.1: Three Flashes or Below Threshold</th>
+            <td>
+              <h6>Entire sample</h6>
+              <p><span>Result:</span> Not present</p>
+            </td>
+            <td> </td>
+          </tr>
+        </tbody>
+      </table>
+      <h5 id="guideline-24">2.4 Navigable</h5>
+      <table aria-labelledby="guideline-24">
+        <tbody>
+          <tr>
+            <th scope="col">Success Criterion</th>
+            <th scope="col">Result</th>
+            <th scope="col">Observations</th>
+          </tr>
+          <tr>
+            <th scope="row" id="criterion-241">2.4.1: Bypass Blocks</th>
+            <td>
+              <h6>Entire sample</h6>
+              <p><span>Result:</span> Passed</p>
+            </td>
+            <td>
+              <h6>Entire sample</h6>
+              <p>Observations:</p>
+              <p>Option to skip directly to content is available on each page.</p>
+            </td>
+          </tr>
+          <tr>
+            <th scope="row" id="criterion-242">2.4.2: Page Titled</th>
+            <td>
+              <h6>Entire sample</h6>
+              <p><span>Result:</span> Passed</p>
+            </td>
+            <td>
+              <h6>Entire sample</h6>
+              <p>Observations:</p>
+              <p>All pages have appropriate titles.</p>
+            </td>
+          </tr>
+          <tr>
+            <th scope="row" id="criterion-243">2.4.3: Focus Order</th>
+            <td>
+              <h6>Entire sample</h6>
+              <p><span>Result:</span> Passed</p>
+            </td>
+            <td>
+              <h6>Entire sample</h6>
+              <p>Observations:</p>
+              <p>Only possible issues may be with any tabbed/tab pane elements as the focus order may get a bit muddled.
+              </p>
+            </td>
+          </tr>
+          <tr>
+            <th scope="row" id="criterion-244">2.4.4: Link Purpose (In Context)</th>
+            <td>
+              <h6>Entire sample</h6>
+              <p><span>Result:</span> Passed</p>
+              <h6>Homepage</h6>
+              <p><span>Result:</span> Passed </p>
+              <h6>Raven Rocks</h6>
+              <p><span>Result:</span> Passed </p>
+              <h6>Apply</h6>
+              <p><span>Result:</span> Passed </p>
+              <h6>FAQ</h6>
+              <p><span>Result:</span> Passed </p>
+              <h6>Outdoor RLC</h6>
+              <p><span>Result:</span> Passed </p>
+              <h6>Policies</h6>
+              <p><span>Result:</span> Passed </p>
+              <h6>Residence Halls</h6>
+              <p><span>Result:</span> Passed </p>
+              <h6>Staff Directory</h6>
+              <p><span>Result:</span> Passed </p>
+              <h6>Learning Plan</h6>
+              <p><span>Result:</span> Passed </p>
+              <h6>Summer Employment</h6>
+              <p><span>Result:</span> Passed </p>
+            </td>
+            <td>
+              <h6>Homepage</h6>
+              <p>No observations added</p>
+              <h6>Raven Rocks</h6>
+              <p>No observations added</p>
+              <h6>Apply</h6>
+              <p>No observations added</p>
+              <h6>FAQ</h6>
+              <p>No observations added</p>
+              <h6>Outdoor RLC</h6>
+              <p>No observations added</p>
+              <h6>Policies</h6>
+              <p>No observations added</p>
+              <h6>Residence Halls</h6>
+              <p>No observations added</p>
+              <h6>Staff Directory</h6>
+              <p>No observations added</p>
+              <h6>Learning Plan</h6>
+              <p>No observations added</p>
+              <h6>Summer Employment</h6>
+              <p>No observations added</p>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      <h5 id="guideline-25">2.5 Input Modalities</h5>
+      <table aria-labelledby="guideline-25">
+        <tbody>
+          <tr>
+            <th scope="col">Success Criterion</th>
+            <th scope="col">Result</th>
+            <th scope="col">Observations</th>
+          </tr>
+          <tr>
+            <th scope="row" id="criterion-251">2.5.1: Pointer Gestures</th>
+            <td>
+              <h6>Entire sample</h6>
+              <p><span>Result:</span> Not present</p>
+            </td>
+            <td> </td>
+          </tr>
+          <tr>
+            <th scope="row" id="criterion-252">2.5.2: Pointer Cancellation</th>
+            <td>
+              <h6>Entire sample</h6>
+              <p><span>Result:</span> Not present</p>
+            </td>
+            <td> </td>
+          </tr>
+          <tr>
+            <th scope="row" id="criterion-253">2.5.3: Label in Name</th>
+            <td>
+              <h6>Entire sample</h6>
+              <p><span>Result:</span> Passed</p>
+              <h6>Homepage</h6>
+              <p><span>Result:</span> Passed </p>
+              <h6>Raven Rocks</h6>
+              <p><span>Result:</span> Passed </p>
+              <h6>Apply</h6>
+              <p><span>Result:</span> Passed </p>
+              <h6>FAQ</h6>
+              <p><span>Result:</span> Passed </p>
+              <h6>Outdoor RLC</h6>
+              <p><span>Result:</span> Passed </p>
+              <h6>Policies</h6>
+              <p><span>Result:</span> Passed </p>
+              <h6>Residence Halls</h6>
+              <p><span>Result:</span> Passed </p>
+              <h6>Staff Directory</h6>
+              <p><span>Result:</span> Failed </p>
+              <h6>Learning Plan</h6>
+              <p><span>Result:</span> Passed </p>
+              <h6>Summer Employment</h6>
+              <p><span>Result:</span> Passed </p>
+            </td>
+            <td>
+              <h6>Entire sample</h6>
+              <p>Observations:</p>
+              <p>Most pages have no real issues here.</p>
+              <h6>Homepage</h6>
+              <p>No observations added</p>
+              <h6>Raven Rocks</h6>
+              <p>May need to add accessible name to hall image modal links at bottom of page.</p>
+              <h6>Apply</h6>
+              <p>No observations added</p>
+              <h6>FAQ</h6>
+              <p>No observations added</p>
+              <h6>Outdoor RLC</h6>
+              <p>May need to add accessible name for iframe</p>
+              <h6>Policies</h6>
+              <p>No observations added</p>
+              <h6>Residence Halls</h6>
+              <p>No observations added</p>
+              <h6>Staff Directory</h6>
+              <p>Staff images should have either accessible name, alt tag, or title</p>
+              <h6>Learning Plan</h6>
+              <p>No observations added</p>
+              <h6>Summer Employment</h6>
+              <p>No observations added</p>
+            </td>
+          </tr>
+          <tr>
+            <th scope="row" id="criterion-254">2.5.4: Motion Actuation</th>
+            <td>
+              <h6>Entire sample</h6>
+              <p><span>Result:</span> Not present</p>
+            </td>
+            <td> </td>
+          </tr>
+        </tbody>
+      </table>
+      <h4>3 Understandable</h4>
+      <h5 id="guideline-31">3.1 Readable</h5>
+      <table aria-labelledby="guideline-31">
+        <tbody>
+          <tr>
+            <th scope="col">Success Criterion</th>
+            <th scope="col">Result</th>
+            <th scope="col">Observations</th>
+          </tr>
+          <tr>
+            <th scope="row" id="criterion-311">3.1.1: Language of Page</th>
+            <td>
+              <h6>Entire sample</h6>
+              <p><span>Result:</span> Passed</p>
+            </td>
+            <td>
+              <h6>Entire sample</h6>
+              <p>Observations:</p>
+              <p>Default language set to 'en'</p>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      <h5 id="guideline-32">3.2 Predictable</h5>
+      <table aria-labelledby="guideline-32">
+        <tbody>
+          <tr>
+            <th scope="col">Success Criterion</th>
+            <th scope="col">Result</th>
+            <th scope="col">Observations</th>
+          </tr>
+          <tr>
+            <th scope="row" id="criterion-321">3.2.1: On Focus</th>
+            <td>
+              <h6>Entire sample</h6>
+              <p><span>Result:</span> Passed</p>
+            </td>
+            <td>
+              <h6>Entire sample</h6>
+              <p>Observations:</p>
+              <p>Did not encounter any instances of an unexpected context change when an item received focus.</p>
+            </td>
+          </tr>
+          <tr>
+            <th scope="row" id="criterion-322">3.2.2: On Input</th>
+            <td>
+              <h6>Entire sample</h6>
+              <p><span>Result:</span> Not present</p>
+            </td>
+            <td>
+              <h6>Entire sample</h6>
+              <p>Observations:</p>
+              <p>No forms present in sample set</p>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      <h5 id="guideline-33">3.3 Input Assistance</h5>
+      <table aria-labelledby="guideline-33">
+        <tbody>
+          <tr>
+            <th scope="col">Success Criterion</th>
+            <th scope="col">Result</th>
+            <th scope="col">Observations</th>
+          </tr>
+          <tr>
+            <th scope="row" id="criterion-331">3.3.1: Error Identification</th>
+            <td>
+              <h6>Entire sample</h6>
+              <p><span>Result:</span> Not present</p>
+            </td>
+            <td>
+              <h6>Entire sample</h6>
+              <p>Observations:</p>
+              <p>No forms present in sample set</p>
+            </td>
+          </tr>
+          <tr>
+            <th scope="row" id="criterion-332">3.3.2: Labels or Instructions</th>
+            <td>
+              <h6>Entire sample</h6>
+              <p><span>Result:</span> Not present</p>
+            </td>
+            <td>
+              <h6>Entire sample</h6>
+              <p>Observations:</p>
+              <p>No forms present in sample set</p>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      <h4>4 Robust</h4>
+      <h5 id="guideline-41">4.1 Compatible</h5>
+      <table aria-labelledby="guideline-41">
+        <tbody>
+          <tr>
+            <th scope="col">Success Criterion</th>
+            <th scope="col">Result</th>
+            <th scope="col">Observations</th>
+          </tr>
+          <tr>
+            <th scope="row" id="criterion-411">4.1.1: Parsing</th>
+            <td>
+              <h6>Entire sample</h6>
+              <p><span>Result:</span> Passed</p>
+            </td>
+            <td> </td>
+          </tr>
+          <tr>
+            <th scope="row" id="criterion-412">4.1.2: Name, Role, Value</th>
+            <td>
+              <h6>Entire sample</h6>
+              <p><span>Result:</span> Not present</p>
+            </td>
+            <td>
+              <h6>Entire sample</h6>
+              <p>Observations:</p>
+              <p>No custom controls present in sample set</p>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      <h2>Sample of audited web pages</h2>
+      <ol>
+        <li><span>Homepage</span> - <span>http://housing.appstate.edu</span> </li>
+        <li><span>Raven Rocks</span> - <span>https://housing.appstate.edu/pagesmith/135</span> </li>
+        <li><span>Apply</span> - <span>https://housing.appstate.edu/apply-for-housing</span> </li>
+        <li><span>FAQ</span> - <span>https://housing.appstate.edu/faq</span> </li>
+        <li><span>Outdoor RLC</span> - <span>https://housing.appstate.edu/outdoor-community</span> </li>
+        <li><span>Policies</span> - <span>https://housing.appstate.edu/policies</span> </li>
+        <li><span>Residence Halls</span> - <span>https://housing.appstate.edu/halls</span> </li>
+        <li><span>Staff Directory</span> - <span>https://housing.appstate.edu/pagesmith/5</span> </li>
+        <li><span>Learning Plan</span> - <span>https://housing.appstate.edu/residential-learning-plan</span> </li>
+        <li><span>Summer Employment</span> - <span>https://housing.appstate.edu/pagesmith/17</span> </li>
+      </ol>
+      <h2>Web Technology</h2>
+      <p>HTML,CSS,WAI-ARIA,JavaScript,SVG,PDF</p>
+      <h2>Recording of evaluation specifics</h2>
+      <p>Not provided</p>
+    </main>
+  </div>
+</body>
+
+</html>
